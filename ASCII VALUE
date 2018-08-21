@@ -9,18 +9,18 @@ int main()
     char o = 1;
    float t = 24778.66;
     
-    
-    printf("\n%d",b);//\n
-    printf("\n%c",b);//nothing
-    printf("\n%d",x);//65
-    printf("\n%c",x);//A
-    printf("\n%d",z);//36
-    printf("\n%c",z);//$
-    printf("\n%d",p);//-125
-    printf("\n%c",p);//?
-    printf("\n%u",p);//basically it's range 0-255 but it also depend upon your system
-    printf("\n%c",o);//it will print smile face but your compiler have no this kind of stucture.
-    printf("\n%f",t);//24778.660156
-    printf("\n%e",t);//2.47866e+04
+                        //output
+    printf("\n%d",b);   //\n
+    printf("\n%c",b);   //nothing
+    printf("\n%d",x);   //65
+    printf("\n%c",x);   //A
+    printf("\n%d",z);   //36
+    printf("\n%c",z);   //$
+    printf("\n%d",p);   //-125
+    printf("\n%c",p);   //?
+    printf("\n%u",p);   //basically it's range 0-255 but it also depend upon your system
+    printf("\n%c",o);   //it will print smile face but your compiler have no this kind of stucture.
+    printf("\n%f",t);   //24778.660156
+    printf("\n%e",t);   //2.47866e+04
     return 0;
 }
