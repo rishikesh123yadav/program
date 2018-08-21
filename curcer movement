@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    gotoxy(50,15);
+    printf("Hello World");
+
+    return 0;
+}
