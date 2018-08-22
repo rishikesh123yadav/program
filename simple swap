@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b,c;
+    printf("Enter  two value for swap :");
+    scanf("%d%d",&a,&b);
+    printf("Your Value Is :%d,%d",a,b);
+    c= a+b;
+    b = c-b;
+    a= c-a;
+   /* c = a*b;
+    a = c/a;
+    b = c/b;*/
+    printf("\nYour swaped value is %d,%d",a,b);
+    return 0;
+}
