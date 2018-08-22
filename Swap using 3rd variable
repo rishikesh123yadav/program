@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include<conio.h>
+void swap(int,int);
+int main()
+{
+    int a,b;
+    printf("Enter  two value for swap :");
+    scanf("%d%d",&a,&b);
+    printf("Your Value Is :%d,%d",a,b);
+    swap(a,b);
+
+    return 0;
+}
+ void swap(int x,int y){
+     int t;
+     t = x;
+     x= y;
+     y = t;
+     printf("\nYour Swaped value is :%d,%d",x,y);
+ }
