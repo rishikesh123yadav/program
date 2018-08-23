@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    int _,If,c;
+    printf("Enter two value for store :");
+    c = scanf("%d%d",&_,&If);
+    printf("You Succesfully Store %d value ",c);
+    return 0;
+}
