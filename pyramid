@@ -1,1 +1,46 @@
+#include <stdio.h>
 
+int main()
+{   
+    int num,c;
+    printf("Enter  A Number : ");
+    scanf("%d",&num);
+    c=num-1;
+    for(int i = 1; i <= num; i++){
+        for(int k =1; k<=c; k++){
+            printf(" ");
+        }
+        for(int j = 1; j<=i; j++){
+          printf("*");
+          printf(" ");
+        }
+    printf("\n");
+    c--;
+}
+    return 0;
+}
+//
+//
+//
+#include <stdio.h>
+
+int main()
+{   
+    int num,c,temp=1;
+    printf("Enter  A Number : ");
+    scanf("%d",&num);
+    c=num-1;
+    for(int i = 1; i <= num; i++){
+        for(int k =1; k<=c; k++){
+            printf("  ");
+        }
+        for(int j = 1; j<=temp; j++){
+          printf("*");
+          printf(" ");
+        }
+    printf("\n");
+    c--;
+    temp+=2;
+}
+    return 0;
+}
